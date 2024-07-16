@@ -35,7 +35,7 @@ PALCON (Pick And Locate Controller)는 PAL (Pick And Locate) 로봇 팔을 제�
 
 1. Repository 클론
    \`\`\`bash
-   git clone https://github.com/yourusername/PALCON.git
+   git clone https://github.com/being0606/PALCON.git
    cd PALCON
    \`\`\`
 2. 필요한 라이브러리 설치
@@ -44,7 +44,8 @@ PALCON (Pick And Locate Controller)는 PAL (Pick And Locate) 로봇 팔을 제�
    \`\`\`
 3. 환경 설정
    - 환경 변수 설정
-   - YOLO 모델 다운로드 및 설정
+   - YOLO 모델 다운로드 및 설정: [YOLO 모델 다운로드](https://github.com/ultralytics/yolov5/releases/download/v6.1/yolov5s.pt)
+     - 다운로드한 `yolov8n-seg.pt` 파일을 프로젝트 디렉토리에 배치합니다.
 
 ## Usage
 
@@ -54,26 +55,6 @@ PALCON 소프트웨어를 실행하는 방법:
 \`\`\`bash
 python main.py
 \`\`\`
-
-### Examples
-
-예제 이미지에 대한 추론 결과:
-
-1. **Input Image**: res/fork-and-cup01.png
-   ![Input Image](res/fork-and-cup01.png)
-
-   **Output**: (예측된 객체 정보)
-
-2. **Input Image**: res/fork-and-cup02.png
-   ![Input Image](res/fork-and-cup02.png)
-
-   **Output**: (예측된 객체 정보)
-
-### Command Line Options
-
-- \`--config\`: 설정 파일 경로
-- \`--input\`: 입력 이미지/비디오 경로
-- \`--output\`: 출력 경로
 
 ## Architecture
 
@@ -112,3 +93,4 @@ YOLO (You Only Look Once) 세그멘테이션:
 
 - 프로젝트 관리자 연락처
 - 관련 리소스 또는 문서 링크
+  """
