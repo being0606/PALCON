@@ -36,7 +36,9 @@ PALCON프로젝트는 객체탐지 로봇팔 프로젝트인 PAL 팀의 객체�
 깃허브 저장소에는 실행 결과 이미지가 포함되어 있습니다. 각 노트북 파일을 실행한 후 생성되는 결과 이미지를 참고하십시오.
 
 - `res/fork-and-cup01.png`
+  ![Image](/res/fork-and-cup01.png){: width="300px"}
 - `res/fork-and-cup02.png`
+  ![Image](/res/fork-and-cup02.png){: width="300px"}
 
 ## 요구사항
 
