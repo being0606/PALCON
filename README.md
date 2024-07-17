@@ -2,7 +2,7 @@
 
 PALCON프로젝트는 객체탐지 로봇팔 프로젝트인 PAL 팀의 객체탐지 모듈입니다. YOLOv8n segmentation을 사용하여 객체를 탐지하고, 대상 타겟의 중심점을 계산합니다. 이 중심점의 이미지 분석을 통해 로봇팔이 어디를 쥐어야 하는지를 인식하고, 로봇팔은 해당 좌표로 이동하여 객체를 집게 됩니다.
 
-해당 프로젝트의 데모 영상을 아래 썸네일을 클릭하여 [여기](https://drive.google.com/file/d/1zsO-rU1gjIOY389-hjdFmlM2J5YaqgQQ/view?usp=sharing)에서 확인할 수 있습니다.
+해당 프로젝트의 데모 영상을 아래 썸네일을 클릭거나 [여기](https://drive.google.com/file/d/1zsO-rU1gjIOY389-hjdFmlM2J5YaqgQQ/view?usp=sharing)에서 확인할 수 있습니다.
 
 [![Video Thumbnail](res/24LC110_PAL_thumbnail.png)](https://drive.google.com/file/d/1zsO-rU1gjIOY389-hjdFmlM2J5YaqgQQ/view?usp=sharing)
 
