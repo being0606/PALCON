@@ -9,7 +9,7 @@ PALCON프로젝트는 객체탐지 로봇팔 프로젝트인 PAL 팀의 객체�
 ## 프로젝트 구조
 
 - `src/main.py` : 메인 실행 파일입니다.
-- `src/yolo7Seg-test.ipynb` : YOLOv7seg를 사용하여 데모를 실행하는 Jupyter Notebook 파일입니다.
+- `src/yolo8n-seg-test.ipynb` : YOLOv7seg를 사용하여 데모를 실행하는 Jupyter Notebook 파일입니다.
 - `src/segmaㅌntation.ipynb` : YOLOv7seg를 웹캠에 적용시켜 대상 이미지를 실시간으로 탐지하는 Jupyter Notebook 파일입니다.
 - `src/segTracing.ipynb` : YOLOv7seg를 웹캠에 적용하여 특정 라벨(이 프로젝트에서는 포크와 접시 등 식기)만을 탐지하도록 수정한 Jupyter Notebook 파일입니다.
 
@@ -28,8 +28,8 @@ PALCON프로젝트는 객체탐지 로봇팔 프로젝트인 PAL 팀의 객체�
 
 ### Jupyter Notebook 사용
 
-1. YOLOv7seg 데모 실행:
-   - `src/yolo7Seg-test.ipynb` 파일을 Jupyter Notebook에서 열고 순서대로 셀을 실행합니다.
+1. YOLOv8n-seg 데모 실행:
+   - `src/yolo8n-seg-test.ipynb` 파일을 Jupyter Notebook에서 열고 순서대로 셀을 실행합니다.
 2. 실시간 대상 이미지 탐지:
    - `src/segmantation.ipynb` 파일을 Jupyter Notebook에서 열고 순서대로 셀을 실행하여 웹캠을 통해 실시간으로 이미지를 탐지합니다.
 3. 특정 라벨 탐지:
