@@ -36,34 +36,9 @@ PALCON프로젝트는 객체탐지 로봇팔 프로젝트인 PAL 팀의 객체�
 깃허브 저장소에는 실행 결과 이미지가 포함되어 있습니다. 각 노트북 파일을 실행한 후 생성되는 결과 이미지를 참고하십시오.
 
 - `res/fork-and-cup01.png`
-  ![Image](/res/fork-and-cup01.png){: width="300px"}
+  ![Image](/res/fork-and-cup01.png)
 - `res/fork-and-cup02.png`
-  ![Image](/res/fork-and-cup02.png){: width="300px"}
-
-## 요구사항
-
-- Python 3.x
-- 필요한 패키지는 `requirements.txt` 파일을 참고하여 설치하십시오.
-  ```bash
-  pip install -r requirements.txt
-  ```
-
-## 기여 방법
-
-1. 이 저장소를 포크합니다.
-2. 새로운 브랜치를 생성합니다.
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. 변경 사항을 커밋합니다.
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. 브랜치에 푸시합니다.
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. 풀 리퀘스트를 생성합니다.
+  ![Image](/res/fork-and-cup02.png)
 
 ## 라이센스
 
